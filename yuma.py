@@ -170,7 +170,7 @@ def plot_consensus(E: float, weight: list[list[tuple[int, float]]], stake_vec: l
     ax2.set_title('Validator Rewards Stake Distribution')
 
     plt.tight_layout()
-    plt.savefig('consensus_distribution.png')
+    plt.savefig('assets/consensus_distribution.png')
     plt.close()
     
 
